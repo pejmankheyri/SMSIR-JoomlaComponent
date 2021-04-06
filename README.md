@@ -1,0 +1,2 @@
+# SMSIR-Joomla-Component
+sms
