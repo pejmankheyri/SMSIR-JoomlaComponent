@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset name="account" label="COM_IPESMS_CONFIG_ACCOUNT_SETTINGS_LABEL">
+        <field name="ipesms_apidomain" type="text" default="https://ws.sms.ir/" label="COM_IPESMS_CONFIG_FIELD_APIDOMAIN_LABEL" size="50" />       
+        <field name="ipesms_username" type="text" default="" label="COM_IPESMS_CONFIG_FIELD_USERNAME_LABEL" size="50" />       
+        <field name="ipesms_password" type="password" default="" label="COM_IPESMS_CONFIG_FIELD_PASSWORD_LABEL" size="50" />        
+        <field name="ipesms_linenumber" type="text" default="" label="COM_IPESMS_CONFIG_FIELD_LINENUMBER_LABEL" size="50" />        
+        <field name="ipesms_iscustomerclub" type="checkbox" default="" label="COM_IPESMS_CONFIG_FIELD_ISCUSTOMERCLUB_LABEL" size="50" />  
+        <field name="admin_phone_number_note" type="note" class="alert alert-info" description="COM_IPESMS_CONFIG_FIELD_ISCUSTOMERCLUB_DESC_LABEL" />
+        <field name="admin_phone_number" type="tel" default="" label="COM_IPESMS_CONFIG_FIELD_ADMIN_PHONE_NUMBER_LABEL" size="50"/>  
+    </fieldset>
+    
+    <fieldset name="email_alert" label="COM_IPESMS_CONFIG_EMAIL_ALERT_SETTINGS_LABEL">
+        <field name="email_alert_enabled" type="radio" default="true" label="COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_RADIO_LABEL" >
+            <option value="false">COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_RADIO_NO</option>
+            <option value="true">COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_RADIO_YES</option>
+        </field>       
+        <field name="email_alert_parameters" type="checkboxes" default="name,email,subject,message" label="COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_PARAMETERS_LABEL">
+            <option value="name">COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_PARAMETERS_NAME</option>
+            <option value="email">COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_PARAMETERS_EMAIL</option>
+            <option value="subject">COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_PARAMETERS_SUBJECT</option>
+            <option value="message">COM_IPESMS_CONFIG_FIELD_EMAIL_ALERT_PARAMETERS_MESSAGE</option>
+        </field>        
+    </fieldset>
+    
+    <fieldset name="register_alert" label="COM_IPESMS_CONFIG_REGISTER_ALERT_SETTINGS_LABEL">
+        <field name="register_alert_enabled" type="radio" default="true" label="COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_RADIO_LABEL" >
+            <option value="false">COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_RADIO_NO</option>
+            <option value="true">COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_RADIO_YES</option>
+        </field>       
+        <field name="register_alert_parameters" type="checkboxes" default="name,username,email" label="COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_PARAMETERS_LABEL">
+            <option value="name">COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_PARAMETERS_NAME</option>
+            <option value="username">COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_PARAMETERS_USERNAME</option>
+            <option value="email">COM_IPESMS_CONFIG_FIELD_REGISTER_ALERT_PARAMETERS_EMAIL</option>
+        </field>       
+    </fieldset>
+</config>
