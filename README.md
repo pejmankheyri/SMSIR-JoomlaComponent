@@ -3,10 +3,10 @@
 <img src="https://user-images.githubusercontent.com/3329008/113660582-af5a9f00-96b9-11eb-83c0-db18736c3ace.png" />
 </p>
 <p align="center">
-  <a href="https://packagist.org/packages/pejmankheyri/smsir-joomlacomponent"><img src="https://poser.pugx.org/pejmankheyri/smsir-joomlacomponent/v/stable" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/pejmankheyri/smsir-joomlacomponent"><img src="https://img.shields.io/packagist/dt/pejmankheyri/smsir-joomlacomponent" alt="Total Downloads"></a>
-  <a href="https://packagist.org/packages/pejmankheyri/smsir-joomlacomponent"><img src="https://poser.pugx.org/pejmankheyri/smsir-joomlacomponent/d/monthly" alt="Monthly Downloads"></a>
-<a href="https://packagist.org/packages/pejmankheyri/smsir-joomlacomponent"><img src="https://img.shields.io/github/license/pejmankheyri/smsir-joomlacomponent" alt="License"></a>
+  <a href="https://packagist.org/packages/pejmankheyri/smsir-joomla-component"><img src="https://poser.pugx.org/pejmankheyri/smsir-joomla-component/v/stable" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/pejmankheyri/smsir-joomla-component"><img src="https://img.shields.io/packagist/dt/pejmankheyri/smsir-joomla-component" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/pejmankheyri/smsir-joomla-component"><img src="https://poser.pugx.org/pejmankheyri/smsir-joomla-component/d/monthly" alt="Monthly Downloads"></a>
+<a href="https://packagist.org/packages/pejmankheyri/smsir-joomla-component"><img src="https://img.shields.io/github/license/pejmankheyri/smsir-joomlacomponent" alt="License"></a>
 </p>
 <div dir="rtl">
 

@@ -6,7 +6,7 @@
     <author>Pejman Kheyri</author>
     <license></license>
     <!-- The version string is recorded in the components table -->
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <!-- The description is optional and defaults to the name -->
     <description>SMS Notification plugin for Joomla</description>
     
