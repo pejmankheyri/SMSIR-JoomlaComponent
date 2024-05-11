@@ -10,59 +10,59 @@
 </p>
 <div dir="rtl">
 
-# ارسال پیامک به مشتریان در سیستم مدیریت محتوای جوملا
+# Sending SMS to customers in the Joomla content management system
 
- یک افزونه کاربردی برای سیستم مدیریت محتوای رایگان جوملا می باشد که شما را قادر می سازد تا براحتی اقدام به اطلاع رسانی از طریق پیامک به کاربرانتان کنید.
+ It is a practical plugin for Joomla's free content management system that enables you to easily notify your users via SMS.
 
 
-> [نصب](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D9%86%D8%B5%D8%A8)
+> [Installation](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D9%86%D8%B5%D8%A8)
 > 
-> [امکانات](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%A7%D9%85%DA%A9%D8%A7%D9%86%D8%A7%D8%AA)
+> [Features](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%A7%D9%85%DA%A9%D8%A7%D9%86%D8%A7%D8%AA)
 > 
-> [تنظیمات](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+> [Settings](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 > 
-> [کمک به توسعه](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D8%AA%D9%88%D8%B3%D8%B9%D9%87)
+> [Development Assistance](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%DA%A9%D9%85%DA%A9-%D8%A8%D9%87-%D8%AA%D9%88%D8%B3%D8%B9%D9%87)
 > 
-> [لایسنس](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D9%84%D8%A7%DB%8C%D8%B3%D9%86%D8%B3)
+> [License](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D9%84%D8%A7%DB%8C%D8%B3%D9%86%D8%B3)
 > 
-> [تصاویر افزونه](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1-%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87)
+> [Plugin Images](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%AA%D8%B5%D8%A7%D9%88%DB%8C%D8%B1-%D8%A7%D9%81%D8%B2%D9%88%D9%86%D9%87)
 
-## نصب
+## Installation
 
-* فایل زیپ `SMSIR-JoomlaComponent` را دانلود کنید.
-* کامپوننت را از طریق منوی `نصب افزونه ها` در مدیریت جوملا نصب کنید.
-* از طریق منوی کامپوننت ها، `ارسال پیامک SMSIR` را انتخاب کنید
-* با زدن تنظیمات به صفحه تنظیمات کامپوننت بروید
-* [تنظیمات افزونه را در تب `عمومی` انجام دهید.](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
+* Download the `SMSIR-JoomlaComponent` zip file.
+* Install the component through the `Install Plugins` menu in the Joomla administration.
+* Select `Send SMSIR` through the components menu
+* Go to the component settings page by clicking Settings
+* [Configure the plugin in the `General` tab.](https://github.com/pejmankheyri/SMSIR-JoomlaComponent#%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA)
 
-## امکانات
+## Features
 
-* ارسال پیامک به چند شماره خاص از طریق پنل مدیریت سیستم
-* ارسال پیامک به کاربر خاص سیستم
-* ارسال پیامک به گروه های مشتریان خاص سیستم
-* ارسال پیامک به همه مخاطبین باشگاه مشتریان پنل sms.ir
-* امکان ارسال پیامک هنگام هشدار بعد از ایمیل به مدیریت سیستم
-* ارسال پیامک هنگام ثبت نام کاربر
+* Sending SMS to several specific numbers through the system management panel
+* Send SMS to a specific user of the system
+* Sending SMS to specific customer groups of the system
+* Send SMS to all contacts of sms.ir customer club
+* Ability to send SMS when warning after email to system management
+* Send SMS when user registers
 
-## تنظیمات
+## Settings
 
-* تنظیمات اصلی افزونه شامل جدول زیر می باشد:
+* The main settings of the plugin include the following table:
 
-    | تنظیمات | توضیح |
+    | Settings | Description |
     | ------ | ------ |
-    | لینک وب سرویس | لینک وب سرویسی که پنل ارسال پیامک از آن استفاده می کند (https://ws.sms.ir/) |
-    | کلید وب سرویس | کلید وب سرویس پنل پیامک sms.ir |
-    | کد امنیتی | کد امنیتی پنل پیامک sms.ir |
-    | شماره ارسال کننده | شماره ارسال کننده پنل پیامک sms.ir |
-    | ارسال از طریق باشگاه مشتریان | باید ماژول باشگاه مشتریان خریداری شود و سپس ارسال از آن طریق انجام می شود |
+    | Web service link | The web service link used by the SMS sending panel (https://ws.sms.ir/) |
+    | Web service key | SMS panel web service key sms.ir |
+    | Security code | SMS panel security code sms.ir |
+    | Sender number | SMS panel sender number sms.ir |
+    | Send through customer club | The customer club module must be purchased and then shipping is done through it |
 
-## کمک به توسعه
+## Development Assistance
 
-از Pull request ها استقبال می کنیم.
+We welcome pull requests.
 
-برای تغییرات عمده ، لطفاً ابتدا یک issue را باز کنید تا در مورد آنچه می خواهید تغییر دهیم و بحث کنیم.
+For major changes, please open an issue first so we can discuss what you want to change.
 
-## لایسنس
+## License
 
 MIT
 
@@ -70,11 +70,11 @@ MIT
 
 <div dir="rtl">
 
-## تصاویر افزونه
+## Plugin Images
 
-* <a href="https://user-images.githubusercontent.com/3329008/113661711-d7e39880-96bb-11eb-8c67-8f6d854d24c6.png" target="_blank">تصویر 01</a>
-* <a href="https://user-images.githubusercontent.com/3329008/113661730-e0d46a00-96bb-11eb-8363-5a2a053756c8.png" target="_blank">تصویر 02</a>
-* <a href="https://user-images.githubusercontent.com/3329008/113661748-e8940e80-96bb-11eb-8879-b1b1c57b3f74.png" target="_blank">تصویر 03</a>
-* <a href="https://user-images.githubusercontent.com/3329008/113661761-f0ec4980-96bb-11eb-9214-9697425e5b26.png" target="_blank">تصویر 04</a>
+* <a href="https://user-images.githubusercontent.com/3329008/113661711-d7e39880-96bb-11eb-8c67-8f6d854d24c6.png" target="_blank">Image 01</a>
+* <a href="https://user-images.githubusercontent.com/3329008/113661730-e0d46a00-96bb-11eb-8363-5a2a053756c8.png" target="_blank">Image 02</a>
+* <a href="https://user-images.githubusercontent.com/3329008/113661748-e8940e80-96bb-11eb-8879-b1b1c57b3f74.png" target="_blank">Image 03</a>
+* <a href="https://user-images.githubusercontent.com/3329008/113661761-f0ec4980-96bb-11eb-9214-9697425e5b26.png" target="_blank">Image 04</a>
 
 </div>
